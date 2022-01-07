@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 
 const Item = (props) => {
 
-  // const [pressed, setPressed] = useState(false)
+  //input code
 
   function changeColor() {
     setPressed(prevPressed => !prevPressed)
@@ -12,7 +12,7 @@ const Item = (props) => {
   }
 
 
-  const buttonBg = pressed?"#ae6fe8":"white"
+  const buttonBg = pressed?"#ae6fe8":"white" //variable that changes button colour. when not pressed colour is white
 
     return (
     <View>
@@ -30,13 +30,13 @@ const Item = (props) => {
             marginRight: 15,
             
         }}
-        onPress = {() => setPressed(prevPressed => !prevPressed)}
+        onPress = {() => setPressed(prevPressed => !prevPressed)} //on press, changes colour
 
         >
       </TouchableOpacity> 
         </View>
 
-        {/* <Text style={styles.itemText}>{props.text}</Text> */}
+        {/* input code */}
 
       </View>
     </View>
