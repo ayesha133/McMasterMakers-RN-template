@@ -36,6 +36,7 @@ export default function App() {
       <View style={styles.wrapper}>
         <Modal
         //input code
+        visible={modal}
         >
           <View style={styles.centeredView}>
           <View style={styles.modalView}>
